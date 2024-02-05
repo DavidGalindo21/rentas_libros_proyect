@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+nav {
+    height: 75px;
+}
+.link1 {
+    background: #F50400;
+    padding: .5rem 0px;
+    transition: .2s;
+}
+.link1:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+.link1:hover > img{
+    background: #F50400;
+    border-radius: 5px;
+    transition: .2s;
+}
+.link2 {
+    background: #D6A735;
+    padding: .5rem 0px;
+    transition: .2s;
+}
+.link2:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+.link2:hover > img{
+    background: #D6A735;
+    border-radius: 5px;
+    transition: .5s;
+}
+.link3 {
+    background: #D6EBC1;
+    padding: .5rem 0px;
+}
+.link3:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+.link3:hover > img{
+    background: #D6EBC1;
+    border-radius: 5px;
+    transition: .5s;
+}
+.link4 {
+    background: #FF8862;
+    padding: .5rem 0px;
+}
+.link4:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+.link4:hover > img{
+    background: #FF8862;
+    border-radius: 5px;
+    transition: .5s;
+}
+.link5 {
+    background: #B93AF8;
+    padding: .5rem 0px;
+}
+.link5:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+.link5:hover > img{
+    background: #B93AF8;
+    border-radius: 5px;
+    transition: .5s;
+}
+.link6 {
+    background: #F7F052;
+    padding: .5rem 0px;
+}
+.link6:hover{
+    background: #000;
+    color: #fff;
+    transition: .2s;
+}
+.link6:hover > img{
+    background: #F7F052;
+    border-radius: 5px;
+    transition: .5s;
+}
+label, h1 {
+    font-weight: 700;
+}
+
+input, h5 {
+    font-weight: 300;
+}
